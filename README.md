@@ -8,3 +8,15 @@
 JXTs-Mac-mini-2:sassproject Shiyas$ sass --update styles.scss
 
 4. invoke this css file from you html file.
+
+
+
+
+# Command to generate CSS file into a new file name
+sass --update styles.scss:mysheet.css
+
+# Command to generate CSS file for all scss in a folder
+sass --update sourcefolder:targetfolder
+
+# Command to watch a folder for any changes in scss file and update css
+sass --watch sourcefolder:targetfolder
