@@ -1,0 +1,8 @@
+$baseColor: red;
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lighten($baseColor, 50%);
+    border: 1px solid darken($baseColor, 50%);;
+    color: $baseColor;
+}
